@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.16">
+  <compound refid="class_bridge_pattern_example_1_1_correct_1_1_blue" kind="class"><name>BridgePatternExample::Correct::Blue</name>
+    <member refid="class_bridge_pattern_example_1_1_correct_1_1_blue_1a7e78231b00a847e4dbc0c82cc99ec936" kind="variable"><name>Color</name></member>
+  </compound>
+  <compound refid="class_bridge_pattern_example_1_1_correct_1_1_circle" kind="class"><name>BridgePatternExample::Correct::Circle</name>
+    <member refid="class_bridge_pattern_example_1_1_correct_1_1_circle_1a73b544778434fbddd9d06c34370886b3" kind="function"><name>Circle</name></member>
+    <member refid="class_bridge_pattern_example_1_1_correct_1_1_circle_1ac7c3ccd88bf81d5b9f4fb758cec3fd12" kind="function"><name>Draw</name></member>
+  </compound>
+  <compound refid="interface_bridge_pattern_example_1_1_correct_1_1_i_color_implementation" kind="interface"><name>BridgePatternExample::Correct::IColorImplementation</name>
+    <member refid="interface_bridge_pattern_example_1_1_correct_1_1_i_color_implementation_1ad0e51d498081b6cefa6cd254d73259e3" kind="property"><name>Color</name></member>
+  </compound>
+  <compound refid="class_bridge_pattern_example_1_1_correct_1_1_red" kind="class"><name>BridgePatternExample::Correct::Red</name>
+    <member refid="class_bridge_pattern_example_1_1_correct_1_1_red_1a15f2777d6d70ac2a7e2e4b3e6056f6be" kind="variable"><name>Color</name></member>
+  </compound>
+  <compound refid="class_bridge_pattern_example_1_1_correct_1_1_shape" kind="class"><name>BridgePatternExample::Correct::Shape</name>
+    <member refid="class_bridge_pattern_example_1_1_correct_1_1_shape_1a4c5967f793e7d3f88aa78603edaaf4b8" kind="variable"><name>_colorImplementation</name></member>
+    <member refid="class_bridge_pattern_example_1_1_correct_1_1_shape_1a0d44a33259faca41724e697a3bf27bb6" kind="variable"><name>_size</name></member>
+    <member refid="class_bridge_pattern_example_1_1_correct_1_1_shape_1ac916447ecb6f94d3e943eb2e31acca77" kind="variable"><name>_drawing</name></member>
+    <member refid="class_bridge_pattern_example_1_1_correct_1_1_shape_1aa8c940d86e2aaf00a977440144713b56" kind="function"><name>Shape</name></member>
+    <member refid="class_bridge_pattern_example_1_1_correct_1_1_shape_1aae5a4ba696ac922399984aa738f24e45" kind="function"><name>DrawPixel</name></member>
+    <member refid="class_bridge_pattern_example_1_1_correct_1_1_shape_1a957cdcf28f691e7899e3366ef78a0be7" kind="function"><name>Draw</name></member>
+    <member refid="class_bridge_pattern_example_1_1_correct_1_1_shape_1a124a4d0201381716917358781acc1ce5" kind="function"><name>DepictInConsole</name></member>
+  </compound>
+  <compound refid="class_bridge_pattern_example_1_1_correct_1_1_square" kind="class"><name>BridgePatternExample::Correct::Square</name>
+    <member refid="class_bridge_pattern_example_1_1_correct_1_1_square_1a938ddec556a8e2c7715dff3e56cf3ccf" kind="function"><name>Square</name></member>
+    <member refid="class_bridge_pattern_example_1_1_correct_1_1_square_1a7802971d2133fd5c7822ec08626ef3d4" kind="function"><name>Draw</name></member>
+  </compound>
+  <compound refid="namespace_bridge_pattern_example" kind="namespace"><name>BridgePatternExample</name>
+  </compound>
+  <compound refid="namespace_bridge_pattern_example_1_1_correct" kind="namespace"><name>BridgePatternExample::Correct</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="classes_8cs" kind="file"><name>classes.cs</name>
+  </compound>
+  <compound refid="_bridge_pattern_example_8_correct_8_assembly_info_8cs" kind="file"><name>BridgePatternExample.Correct.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="dir_a71c3b2ad23b9ff58220dd012d201987" kind="dir"><name>obj/Debug</name>
+  </compound>
+  <compound refid="dir_effe7c127209dbc7d63a81657a8ab6e2" kind="dir"><name>obj/Debug/netstandard2.0</name>
+  </compound>
+  <compound refid="dir_43724e81dd40e09f32417973865cdd64" kind="dir"><name>obj</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,40 @@
+  digraph ClassDiagram {
+              fontname = "Consolas"
+              fontsize = 8
+
+              node [
+                      fontname = "Consolas"
+                      fontsize = 8
+                      shape = "record"
+              ]
+
+              edge [
+                      fontname = "Consolas"
+                      fontsize = 8
+              ]
+              "Blue" [ label="{Blue|- Color : ConsoleColor\l|}" ] 
+"Circle" [ label="{Circle||+ Circle() : \l+ Draw() : override void\l}" ] 
+"IColorImplementation" [ label="{&lt;&lt;interface&gt;&gt;\nIColorImplementation|- Color : ConsoleColor\l|}" ] 
+"Red" [ label="{Red|- Color : ConsoleColor\l|}" ] 
+"Shape" [ label="{Shape|- _size : const int\l- _drawing : ConsoleColor[,]\l|+ Shape() : \l+ DrawPixel() : void\l+ Draw() : abstract void\l+ DepictInConsole() : void\l}" ] 
+"Square" [ label="{Square||+ Square() : \l+ Draw() : override void\l}" ] 
+ edge [arrowtail = "empty" ]
+"IColorImplementation"->"Blue" [style=dashed   dir=back ]
+
+"Circle"->"Shape" [arrowhead = normal    label="" ]
+ edge [arrowtail = "empty" ]
+"Shape"->"Circle" [style=solid   dir=back ]
+
+
+ edge [arrowtail = "empty" ]
+"IColorImplementation"->"Red" [style=dashed   dir=back ]
+
+"IColorImplementation"->"Shape" [arrowhead=odiamond  style =dashed  label="_colorImplementation" ]
+
+"Square"->"Shape" [arrowhead = normal    label="" ]
+ edge [arrowtail = "empty" ]
+"Shape"->"Square" [style=solid   dir=back ]
+
+
+  }
+  

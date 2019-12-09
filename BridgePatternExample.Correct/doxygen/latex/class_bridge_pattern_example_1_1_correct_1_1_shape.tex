@@ -1,0 +1,198 @@
+\hypertarget{class_bridge_pattern_example_1_1_correct_1_1_shape}{}\doxysection{Bridge\+Pattern\+Example.\+Correct.\+Shape Class Reference}
+\label{class_bridge_pattern_example_1_1_correct_1_1_shape}\index{BridgePatternExample.Correct.Shape@{BridgePatternExample.Correct.Shape}}
+
+
+Inheritance diagram for Bridge\+Pattern\+Example.\+Correct.\+Shape\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_bridge_pattern_example_1_1_correct_1_1_shape__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Bridge\+Pattern\+Example.\+Correct.\+Shape\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=255pt]{class_bridge_pattern_example_1_1_correct_1_1_shape__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_bridge_pattern_example_1_1_correct_1_1_shape_aa8c940d86e2aaf00a977440144713b56}{Shape}} (\mbox{\hyperlink{interface_bridge_pattern_example_1_1_correct_1_1_i_color_implementation}{I\+Color\+Implementation}} color\+Implementation)
+\item 
+void \mbox{\hyperlink{class_bridge_pattern_example_1_1_correct_1_1_shape_aae5a4ba696ac922399984aa738f24e45}{Draw\+Pixel}} (int x, int y)
+\item 
+abstract void \mbox{\hyperlink{class_bridge_pattern_example_1_1_correct_1_1_shape_a957cdcf28f691e7899e3366ef78a0be7}{Draw}} ()
+\item 
+void \mbox{\hyperlink{class_bridge_pattern_example_1_1_correct_1_1_shape_a124a4d0201381716917358781acc1ce5}{Depict\+In\+Console}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Console\+Color\mbox{[},\mbox{]} \mbox{\hyperlink{class_bridge_pattern_example_1_1_correct_1_1_shape_ac916447ecb6f94d3e943eb2e31acca77}{\+\_\+drawing}} = new Console\+Color\mbox{[}\mbox{\hyperlink{class_bridge_pattern_example_1_1_correct_1_1_shape_a0d44a33259faca41724e697a3bf27bb6}{\+\_\+size}}, \mbox{\hyperlink{class_bridge_pattern_example_1_1_correct_1_1_shape_a0d44a33259faca41724e697a3bf27bb6}{\+\_\+size}}\mbox{]}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const int \mbox{\hyperlink{class_bridge_pattern_example_1_1_correct_1_1_shape_a0d44a33259faca41724e697a3bf27bb6}{\+\_\+size}} = 10
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{interface_bridge_pattern_example_1_1_correct_1_1_i_color_implementation}{I\+Color\+Implementation}} \mbox{\hyperlink{class_bridge_pattern_example_1_1_correct_1_1_shape_a4c5967f793e7d3f88aa78603edaaf4b8}{\+\_\+color\+Implementation}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 22 of file classes.\+cs.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_bridge_pattern_example_1_1_correct_1_1_shape_aa8c940d86e2aaf00a977440144713b56}\label{class_bridge_pattern_example_1_1_correct_1_1_shape_aa8c940d86e2aaf00a977440144713b56}} 
+\index{BridgePatternExample.Correct.Shape@{BridgePatternExample.Correct.Shape}!Shape@{Shape}}
+\index{Shape@{Shape}!BridgePatternExample.Correct.Shape@{BridgePatternExample.Correct.Shape}}
+\doxysubsubsection{\texorpdfstring{Shape()}{Shape()}}
+{\footnotesize\ttfamily Bridge\+Pattern\+Example.\+Correct.\+Shape.\+Shape (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_bridge_pattern_example_1_1_correct_1_1_i_color_implementation}{I\+Color\+Implementation}}}]{color\+Implementation }\end{DoxyParamCaption})}
+
+
+
+Definition at line 29 of file classes.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{30         \{}
+\DoxyCodeLine{31             \mbox{\hyperlink{class_bridge_pattern_example_1_1_correct_1_1_shape_a4c5967f793e7d3f88aa78603edaaf4b8}{\_colorImplementation}} = colorImplementation;}
+\DoxyCodeLine{32             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} x = 0; x < \mbox{\hyperlink{class_bridge_pattern_example_1_1_correct_1_1_shape_a0d44a33259faca41724e697a3bf27bb6}{\_size}}; x++)}
+\DoxyCodeLine{33                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} y = 0; y < \mbox{\hyperlink{class_bridge_pattern_example_1_1_correct_1_1_shape_a0d44a33259faca41724e697a3bf27bb6}{\_size}}; y++)}
+\DoxyCodeLine{34                 \{}
+\DoxyCodeLine{35                     \mbox{\hyperlink{class_bridge_pattern_example_1_1_correct_1_1_shape_ac916447ecb6f94d3e943eb2e31acca77}{\_drawing}}[x, y] = ConsoleColor.Black;}
+\DoxyCodeLine{36                 \}}
+\DoxyCodeLine{37         \}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_bridge_pattern_example_1_1_correct_1_1_shape_a124a4d0201381716917358781acc1ce5}\label{class_bridge_pattern_example_1_1_correct_1_1_shape_a124a4d0201381716917358781acc1ce5}} 
+\index{BridgePatternExample.Correct.Shape@{BridgePatternExample.Correct.Shape}!DepictInConsole@{DepictInConsole}}
+\index{DepictInConsole@{DepictInConsole}!BridgePatternExample.Correct.Shape@{BridgePatternExample.Correct.Shape}}
+\doxysubsubsection{\texorpdfstring{DepictInConsole()}{DepictInConsole()}}
+{\footnotesize\ttfamily void Bridge\+Pattern\+Example.\+Correct.\+Shape.\+Depict\+In\+Console (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 47 of file classes.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{48         \{}
+\DoxyCodeLine{49             \mbox{\hyperlink{class_bridge_pattern_example_1_1_correct_1_1_shape_a957cdcf28f691e7899e3366ef78a0be7}{Draw}}();}
+\DoxyCodeLine{50             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} y = 0; y < \mbox{\hyperlink{class_bridge_pattern_example_1_1_correct_1_1_shape_a0d44a33259faca41724e697a3bf27bb6}{\_size}}; y++)}
+\DoxyCodeLine{51             \{}
+\DoxyCodeLine{52                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} x = 0; x < \mbox{\hyperlink{class_bridge_pattern_example_1_1_correct_1_1_shape_a0d44a33259faca41724e697a3bf27bb6}{\_size}}; x++)}
+\DoxyCodeLine{53                 \{}
+\DoxyCodeLine{54                     Console.ForegroundColor = \mbox{\hyperlink{class_bridge_pattern_example_1_1_correct_1_1_shape_ac916447ecb6f94d3e943eb2e31acca77}{\_drawing}}[x, y];}
+\DoxyCodeLine{55                     Console.Write(\textcolor{charliteral}{'*'});}
+\DoxyCodeLine{56                 \}}
+\DoxyCodeLine{57                 Console.WriteLine();}
+\DoxyCodeLine{58             \}}
+\DoxyCodeLine{59         \}}
+
+\end{DoxyCode}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_bridge_pattern_example_1_1_correct_1_1_shape_a124a4d0201381716917358781acc1ce5_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_bridge_pattern_example_1_1_correct_1_1_shape_a957cdcf28f691e7899e3366ef78a0be7}\label{class_bridge_pattern_example_1_1_correct_1_1_shape_a957cdcf28f691e7899e3366ef78a0be7}} 
+\index{BridgePatternExample.Correct.Shape@{BridgePatternExample.Correct.Shape}!Draw@{Draw}}
+\index{Draw@{Draw}!BridgePatternExample.Correct.Shape@{BridgePatternExample.Correct.Shape}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily abstract void Bridge\+Pattern\+Example.\+Correct.\+Shape.\+Draw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{class_bridge_pattern_example_1_1_correct_1_1_square_a7802971d2133fd5c7822ec08626ef3d4}{Bridge\+Pattern\+Example.\+Correct.\+Square}}, and \mbox{\hyperlink{class_bridge_pattern_example_1_1_correct_1_1_circle_ac7c3ccd88bf81d5b9f4fb758cec3fd12}{Bridge\+Pattern\+Example.\+Correct.\+Circle}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_bridge_pattern_example_1_1_correct_1_1_shape_a957cdcf28f691e7899e3366ef78a0be7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_bridge_pattern_example_1_1_correct_1_1_shape_aae5a4ba696ac922399984aa738f24e45}\label{class_bridge_pattern_example_1_1_correct_1_1_shape_aae5a4ba696ac922399984aa738f24e45}} 
+\index{BridgePatternExample.Correct.Shape@{BridgePatternExample.Correct.Shape}!DrawPixel@{DrawPixel}}
+\index{DrawPixel@{DrawPixel}!BridgePatternExample.Correct.Shape@{BridgePatternExample.Correct.Shape}}
+\doxysubsubsection{\texorpdfstring{DrawPixel()}{DrawPixel()}}
+{\footnotesize\ttfamily void Bridge\+Pattern\+Example.\+Correct.\+Shape.\+Draw\+Pixel (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Definition at line 40 of file classes.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{41         \{}
+\DoxyCodeLine{42             \mbox{\hyperlink{class_bridge_pattern_example_1_1_correct_1_1_shape_ac916447ecb6f94d3e943eb2e31acca77}{\_drawing}}[x, y] = \mbox{\hyperlink{class_bridge_pattern_example_1_1_correct_1_1_shape_a4c5967f793e7d3f88aa78603edaaf4b8}{\_colorImplementation}}.\mbox{\hyperlink{interface_bridge_pattern_example_1_1_correct_1_1_i_color_implementation_ad0e51d498081b6cefa6cd254d73259e3}{Color}};}
+\DoxyCodeLine{43         \}}
+
+\end{DoxyCode}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_bridge_pattern_example_1_1_correct_1_1_shape_aae5a4ba696ac922399984aa738f24e45_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_bridge_pattern_example_1_1_correct_1_1_shape_a4c5967f793e7d3f88aa78603edaaf4b8}\label{class_bridge_pattern_example_1_1_correct_1_1_shape_a4c5967f793e7d3f88aa78603edaaf4b8}} 
+\index{BridgePatternExample.Correct.Shape@{BridgePatternExample.Correct.Shape}!\_colorImplementation@{\_colorImplementation}}
+\index{\_colorImplementation@{\_colorImplementation}!BridgePatternExample.Correct.Shape@{BridgePatternExample.Correct.Shape}}
+\doxysubsubsection{\texorpdfstring{\_colorImplementation}{\_colorImplementation}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interface_bridge_pattern_example_1_1_correct_1_1_i_color_implementation}{I\+Color\+Implementation}} Bridge\+Pattern\+Example.\+Correct.\+Shape.\+\_\+color\+Implementation\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 24 of file classes.\+cs.
+
+\mbox{\Hypertarget{class_bridge_pattern_example_1_1_correct_1_1_shape_ac916447ecb6f94d3e943eb2e31acca77}\label{class_bridge_pattern_example_1_1_correct_1_1_shape_ac916447ecb6f94d3e943eb2e31acca77}} 
+\index{BridgePatternExample.Correct.Shape@{BridgePatternExample.Correct.Shape}!\_drawing@{\_drawing}}
+\index{\_drawing@{\_drawing}!BridgePatternExample.Correct.Shape@{BridgePatternExample.Correct.Shape}}
+\doxysubsubsection{\texorpdfstring{\_drawing}{\_drawing}}
+{\footnotesize\ttfamily Console\+Color \mbox{[},\mbox{]} Bridge\+Pattern\+Example.\+Correct.\+Shape.\+\_\+drawing = new Console\+Color\mbox{[}\mbox{\hyperlink{class_bridge_pattern_example_1_1_correct_1_1_shape_a0d44a33259faca41724e697a3bf27bb6}{\+\_\+size}}, \mbox{\hyperlink{class_bridge_pattern_example_1_1_correct_1_1_shape_a0d44a33259faca41724e697a3bf27bb6}{\+\_\+size}}\mbox{]}\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 27 of file classes.\+cs.
+
+\mbox{\Hypertarget{class_bridge_pattern_example_1_1_correct_1_1_shape_a0d44a33259faca41724e697a3bf27bb6}\label{class_bridge_pattern_example_1_1_correct_1_1_shape_a0d44a33259faca41724e697a3bf27bb6}} 
+\index{BridgePatternExample.Correct.Shape@{BridgePatternExample.Correct.Shape}!\_size@{\_size}}
+\index{\_size@{\_size}!BridgePatternExample.Correct.Shape@{BridgePatternExample.Correct.Shape}}
+\doxysubsubsection{\texorpdfstring{\_size}{\_size}}
+{\footnotesize\ttfamily const int Bridge\+Pattern\+Example.\+Correct.\+Shape.\+\_\+size = 10\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+
+
+Definition at line 26 of file classes.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classes_8cs}{classes.\+cs}}\end{DoxyCompactItemize}

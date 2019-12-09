@@ -1,0 +1,98 @@
+\hypertarget{class_bridge_pattern_example_1_1_correct_1_1_square}{}\doxysection{Bridge\+Pattern\+Example.\+Correct.\+Square Class Reference}
+\label{class_bridge_pattern_example_1_1_correct_1_1_square}\index{BridgePatternExample.Correct.Square@{BridgePatternExample.Correct.Square}}
+
+
+Inheritance diagram for Bridge\+Pattern\+Example.\+Correct.\+Square\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=232pt]{class_bridge_pattern_example_1_1_correct_1_1_square__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Bridge\+Pattern\+Example.\+Correct.\+Square\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=255pt]{class_bridge_pattern_example_1_1_correct_1_1_square__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_bridge_pattern_example_1_1_correct_1_1_square_a938ddec556a8e2c7715dff3e56cf3ccf}{Square}} (\mbox{\hyperlink{interface_bridge_pattern_example_1_1_correct_1_1_i_color_implementation}{I\+Color\+Implementation}} color)
+\item 
+override void \mbox{\hyperlink{class_bridge_pattern_example_1_1_correct_1_1_square_a7802971d2133fd5c7822ec08626ef3d4}{Draw}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 87 of file classes.\+cs.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_bridge_pattern_example_1_1_correct_1_1_square_a938ddec556a8e2c7715dff3e56cf3ccf}\label{class_bridge_pattern_example_1_1_correct_1_1_square_a938ddec556a8e2c7715dff3e56cf3ccf}} 
+\index{BridgePatternExample.Correct.Square@{BridgePatternExample.Correct.Square}!Square@{Square}}
+\index{Square@{Square}!BridgePatternExample.Correct.Square@{BridgePatternExample.Correct.Square}}
+\doxysubsubsection{\texorpdfstring{Square()}{Square()}}
+{\footnotesize\ttfamily Bridge\+Pattern\+Example.\+Correct.\+Square.\+Square (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_bridge_pattern_example_1_1_correct_1_1_i_color_implementation}{I\+Color\+Implementation}}}]{color }\end{DoxyParamCaption})}
+
+
+
+Definition at line 89 of file classes.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{89                                                   : base(color)}
+\DoxyCodeLine{90         \{}
+\DoxyCodeLine{91         \}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_bridge_pattern_example_1_1_correct_1_1_square_a7802971d2133fd5c7822ec08626ef3d4}\label{class_bridge_pattern_example_1_1_correct_1_1_square_a7802971d2133fd5c7822ec08626ef3d4}} 
+\index{BridgePatternExample.Correct.Square@{BridgePatternExample.Correct.Square}!Draw@{Draw}}
+\index{Draw@{Draw}!BridgePatternExample.Correct.Square@{BridgePatternExample.Correct.Square}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily override void Bridge\+Pattern\+Example.\+Correct.\+Square.\+Draw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_bridge_pattern_example_1_1_correct_1_1_shape_a957cdcf28f691e7899e3366ef78a0be7}{Bridge\+Pattern\+Example.\+Correct.\+Shape}}.
+
+
+
+Definition at line 93 of file classes.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{94         \{}
+\DoxyCodeLine{95             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} x = 0; x < \mbox{\hyperlink{class_bridge_pattern_example_1_1_correct_1_1_shape_a0d44a33259faca41724e697a3bf27bb6}{\_size}}; x++)}
+\DoxyCodeLine{96                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} y = 0; y < \mbox{\hyperlink{class_bridge_pattern_example_1_1_correct_1_1_shape_a0d44a33259faca41724e697a3bf27bb6}{\_size}}; y++)}
+\DoxyCodeLine{97                 \{}
+\DoxyCodeLine{98                         \mbox{\hyperlink{class_bridge_pattern_example_1_1_correct_1_1_shape_aae5a4ba696ac922399984aa738f24e45}{DrawPixel}}(x, y);}
+\DoxyCodeLine{99                 \}}
+\DoxyCodeLine{100         \}}
+
+\end{DoxyCode}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_bridge_pattern_example_1_1_correct_1_1_square_a7802971d2133fd5c7822ec08626ef3d4_cgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classes_8cs}{classes.\+cs}}\end{DoxyCompactItemize}

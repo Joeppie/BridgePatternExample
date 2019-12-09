@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_bridge_pattern_example_1_1_correct_1_1_circle" kind="class" language="C#" prot="public">
+    <compoundname>BridgePatternExample::Correct::Circle</compoundname>
+    <basecompoundref refid="class_bridge_pattern_example_1_1_correct_1_1_shape" prot="public" virt="non-virtual">BridgePatternExample.Correct.Shape</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bridge_pattern_example_1_1_correct_1_1_circle_1a73b544778434fbddd9d06c34370886b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BridgePatternExample.Correct.Circle.Circle</definition>
+        <argsstring>(IColorImplementation color)</argsstring>
+        <name>Circle</name>
+        <param>
+          <type><ref refid="interface_bridge_pattern_example_1_1_correct_1_1_i_color_implementation" kindref="compound">IColorImplementation</ref></type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="classes.cs" line="64" column="16" bodyfile="classes.cs" bodystart="64" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_bridge_pattern_example_1_1_correct_1_1_circle_1ac7c3ccd88bf81d5b9f4fb758cec3fd12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void BridgePatternExample.Correct.Circle.Draw</definition>
+        <argsstring>()</argsstring>
+        <name>Draw</name>
+        <reimplements refid="class_bridge_pattern_example_1_1_correct_1_1_shape_1a957cdcf28f691e7899e3366ef78a0be7">Draw</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="classes.cs" line="68" column="30" bodyfile="classes.cs" bodystart="68" bodyend="84"/>
+        <references refid="class_bridge_pattern_example_1_1_correct_1_1_shape_1a0d44a33259faca41724e697a3bf27bb6" compoundref="classes_8cs" startline="26">BridgePatternExample.Correct.Shape._size</references>
+        <references refid="class_bridge_pattern_example_1_1_correct_1_1_shape_1aae5a4ba696ac922399984aa738f24e45" compoundref="classes_8cs" startline="40" endline="43">BridgePatternExample.Correct.Shape.DrawPixel</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Shape</label>
+        <link refid="class_bridge_pattern_example_1_1_correct_1_1_shape"/>
+      </node>
+      <node id="1">
+        <label>BridgePatternExample.Correct.Circle</label>
+        <link refid="class_bridge_pattern_example_1_1_correct_1_1_circle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>BridgePatternExample.Correct.IColorImplementation</label>
+        <link refid="interface_bridge_pattern_example_1_1_correct_1_1_i_color_implementation"/>
+      </node>
+      <node id="2">
+        <label>Shape</label>
+        <link refid="class_bridge_pattern_example_1_1_correct_1_1_shape"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>-_colorImplementation</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>BridgePatternExample.Correct.Circle</label>
+        <link refid="class_bridge_pattern_example_1_1_correct_1_1_circle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="classes.cs" line="63" column="1" bodyfile="classes.cs" bodystart="62" bodyend="85"/>
+    <listofallmembers>
+      <member refid="class_bridge_pattern_example_1_1_correct_1_1_shape_1a4c5967f793e7d3f88aa78603edaaf4b8" prot="private" virt="non-virtual"><scope>BridgePatternExample::Correct::Circle</scope><name>_colorImplementation</name></member>
+      <member refid="class_bridge_pattern_example_1_1_correct_1_1_shape_1ac916447ecb6f94d3e943eb2e31acca77" prot="protected" virt="non-virtual"><scope>BridgePatternExample::Correct::Circle</scope><name>_drawing</name></member>
+      <member refid="class_bridge_pattern_example_1_1_correct_1_1_shape_1a0d44a33259faca41724e697a3bf27bb6" prot="protected" virt="non-virtual"><scope>BridgePatternExample::Correct::Circle</scope><name>_size</name></member>
+      <member refid="class_bridge_pattern_example_1_1_correct_1_1_circle_1a73b544778434fbddd9d06c34370886b3" prot="public" virt="non-virtual"><scope>BridgePatternExample::Correct::Circle</scope><name>Circle</name></member>
+      <member refid="class_bridge_pattern_example_1_1_correct_1_1_shape_1a124a4d0201381716917358781acc1ce5" prot="public" virt="non-virtual"><scope>BridgePatternExample::Correct::Circle</scope><name>DepictInConsole</name></member>
+      <member refid="class_bridge_pattern_example_1_1_correct_1_1_circle_1ac7c3ccd88bf81d5b9f4fb758cec3fd12" prot="public" virt="virtual"><scope>BridgePatternExample::Correct::Circle</scope><name>Draw</name></member>
+      <member refid="class_bridge_pattern_example_1_1_correct_1_1_shape_1aae5a4ba696ac922399984aa738f24e45" prot="public" virt="non-virtual"><scope>BridgePatternExample::Correct::Circle</scope><name>DrawPixel</name></member>
+      <member refid="class_bridge_pattern_example_1_1_correct_1_1_shape_1aa8c940d86e2aaf00a977440144713b56" prot="public" virt="non-virtual"><scope>BridgePatternExample::Correct::Circle</scope><name>Shape</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,5 @@
+<map id="BridgePatternExample.Correct.Shape" name="BridgePatternExample.Correct.Shape">
+<area shape="rect" id="node1" title=" " alt="" coords="119,5,321,171"/>
+<area shape="rect" id="node2" href="$class_bridge_pattern_example_1_1_correct_1_1_circle.html" title=" " alt="" coords="5,219,208,325"/>
+<area shape="rect" id="node3" href="$class_bridge_pattern_example_1_1_correct_1_1_square.html" title=" " alt="" coords="232,219,435,325"/>
+</map>

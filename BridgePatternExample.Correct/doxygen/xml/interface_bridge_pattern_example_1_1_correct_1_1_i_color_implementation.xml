@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="interface_bridge_pattern_example_1_1_correct_1_1_i_color_implementation" kind="interface" language="C#" prot="public">
+    <compoundname>BridgePatternExample::Correct::IColorImplementation</compoundname>
+    <derivedcompoundref refid="class_bridge_pattern_example_1_1_correct_1_1_blue" prot="public" virt="non-virtual">BridgePatternExample.Correct.Blue</derivedcompoundref>
+    <derivedcompoundref refid="class_bridge_pattern_example_1_1_correct_1_1_red" prot="public" virt="non-virtual">BridgePatternExample.Correct.Red</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_bridge_pattern_example_1_1_correct_1_1_i_color_implementation_1ad0e51d498081b6cefa6cd254d73259e3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ConsoleColor</type>
+        <definition>ConsoleColor BridgePatternExample.Correct.IColorImplementation.Color</definition>
+        <argsstring></argsstring>
+        <name>Color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="classes.cs" line="9" column="22" bodyfile="classes.cs" bodystart="9" bodyend="9"/>
+        <referencedby refid="class_bridge_pattern_example_1_1_correct_1_1_shape_1aae5a4ba696ac922399984aa738f24e45" compoundref="classes_8cs" startline="40" endline="43">BridgePatternExample.Correct.Shape.DrawPixel</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>BridgePatternExample.Correct.Red</label>
+        <link refid="class_bridge_pattern_example_1_1_correct_1_1_red"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>BridgePatternExample.Correct.IColorImplementation</label>
+        <link refid="interface_bridge_pattern_example_1_1_correct_1_1_i_color_implementation"/>
+      </node>
+      <node id="2">
+        <label>BridgePatternExample.Correct.Blue</label>
+        <link refid="class_bridge_pattern_example_1_1_correct_1_1_blue"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BridgePatternExample.Correct.IColorImplementation</label>
+        <link refid="interface_bridge_pattern_example_1_1_correct_1_1_i_color_implementation"/>
+      </node>
+    </collaborationgraph>
+    <location file="classes.cs" line="8" column="1" bodyfile="classes.cs" bodystart="7" bodyend="10"/>
+    <listofallmembers>
+      <member refid="interface_bridge_pattern_example_1_1_correct_1_1_i_color_implementation_1ad0e51d498081b6cefa6cd254d73259e3" prot="public" virt="non-virtual"><scope>BridgePatternExample::Correct::IColorImplementation</scope><name>Color</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

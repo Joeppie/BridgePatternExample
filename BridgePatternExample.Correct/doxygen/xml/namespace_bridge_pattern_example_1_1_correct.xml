@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespace_bridge_pattern_example_1_1_correct" kind="namespace" language="C#">
+    <compoundname>BridgePatternExample::Correct</compoundname>
+    <innerclass refid="class_bridge_pattern_example_1_1_correct_1_1_blue" prot="public">BridgePatternExample::Correct::Blue</innerclass>
+    <innerclass refid="class_bridge_pattern_example_1_1_correct_1_1_circle" prot="public">BridgePatternExample::Correct::Circle</innerclass>
+    <innerclass refid="interface_bridge_pattern_example_1_1_correct_1_1_i_color_implementation" prot="public">BridgePatternExample::Correct::IColorImplementation</innerclass>
+    <innerclass refid="class_bridge_pattern_example_1_1_correct_1_1_red" prot="public">BridgePatternExample::Correct::Red</innerclass>
+    <innerclass refid="class_bridge_pattern_example_1_1_correct_1_1_shape" prot="public">BridgePatternExample::Correct::Shape</innerclass>
+    <innerclass refid="class_bridge_pattern_example_1_1_correct_1_1_square" prot="public">BridgePatternExample::Correct::Square</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="classes.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>
