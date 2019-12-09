@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePatternExample.Wrong", "BridgePatternExample\BridgePatternExample.Wrong.csproj", "{6C3ACDC3-2411-4852-B28D-E8563F31482B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgePatternExample.Wrong", "BridgePatternExample\BridgePatternExample.Wrong.csproj", "{6C3ACDC3-2411-4852-B28D-E8563F31482B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePatternExample.Correct", "BridgePatternExample.Correct\BridgePatternExample.Correct.csproj", "{D13DE9CF-1201-42F6-9595-1AAF76B6DE43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgePatternExample.Correct", "BridgePatternExample.Correct\BridgePatternExample.Correct.csproj", "{D13DE9CF-1201-42F6-9595-1AAF76B6DE43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePatternDemoApp", "BridgePatternDemoApp\BridgePatternDemoApp.csproj", "{B31C05AE-AAD1-461C-898D-8E67AD45D2F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D13DE9CF-1201-42F6-9595-1AAF76B6DE43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D13DE9CF-1201-42F6-9595-1AAF76B6DE43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D13DE9CF-1201-42F6-9595-1AAF76B6DE43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B31C05AE-AAD1-461C-898D-8E67AD45D2F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B31C05AE-AAD1-461C-898D-8E67AD45D2F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B31C05AE-AAD1-461C-898D-8E67AD45D2F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B31C05AE-AAD1-461C-898D-8E67AD45D2F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

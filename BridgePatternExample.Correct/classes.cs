@@ -36,8 +36,7 @@ namespace BridgePatternExample.Correct
                 }
         }
 
-
-        public void DrawPixel(int x, int y)
+        protected void DrawPixel(int x, int y)
         {
             _drawing[x, y] = _colorImplementation.Color;
         }
@@ -67,7 +66,7 @@ namespace BridgePatternExample.Correct
 
         public override void Draw()
         {
-            int radius = _size;
+            int radius = _size/3;
             int middle = _size / 2;
             for (int x = 0; x < _size; x++)
                 for (int y = 0; y < _size; y++)
