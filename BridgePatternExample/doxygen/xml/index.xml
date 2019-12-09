@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.16">
+  <compound refid="class_bridge_pattern_example_1_1_wrong_1_1_blue_circle" kind="class"><name>BridgePatternExample::Wrong::BlueCircle</name>
+  </compound>
+  <compound refid="class_bridge_pattern_example_1_1_wrong_1_1_blue_square" kind="class"><name>BridgePatternExample::Wrong::BlueSquare</name>
+  </compound>
+  <compound refid="class_bridge_pattern_example_1_1_wrong_1_1_circle" kind="class"><name>BridgePatternExample::Wrong::Circle</name>
+    <member refid="class_bridge_pattern_example_1_1_wrong_1_1_circle_1aacca1aba5121dbd17ff94e6b900b7e27" kind="function"><name>Draw</name></member>
+  </compound>
+  <compound refid="class_bridge_pattern_example_1_1_wrong_1_1_red_s_circle" kind="class"><name>BridgePatternExample::Wrong::RedSCircle</name>
+  </compound>
+  <compound refid="class_bridge_pattern_example_1_1_wrong_1_1_red_square" kind="class"><name>BridgePatternExample::Wrong::RedSquare</name>
+  </compound>
+  <compound refid="class_bridge_pattern_example_1_1_wrong_1_1_shape" kind="class"><name>BridgePatternExample::Wrong::Shape</name>
+    <member refid="class_bridge_pattern_example_1_1_wrong_1_1_shape_1a8f9d3a0b9c8e1590d61d13f2ee2592f4" kind="function"><name>Draw</name></member>
+  </compound>
+  <compound refid="class_bridge_pattern_example_1_1_wrong_1_1_square" kind="class"><name>BridgePatternExample::Wrong::Square</name>
+    <member refid="class_bridge_pattern_example_1_1_wrong_1_1_square_1acf05d82ce78a7cf56bc7c6bf30a2caf5" kind="function"><name>Draw</name></member>
+  </compound>
+  <compound refid="namespace_bridge_pattern_example" kind="namespace"><name>BridgePatternExample</name>
+  </compound>
+  <compound refid="namespace_bridge_pattern_example_1_1_wrong" kind="namespace"><name>BridgePatternExample::Wrong</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="classes_8cs" kind="file"><name>classes.cs</name>
+  </compound>
+  <compound refid="_bridge_pattern_example_8_assembly_info_8cs" kind="file"><name>BridgePatternExample.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="dir_a71c3b2ad23b9ff58220dd012d201987" kind="dir"><name>obj/Debug</name>
+  </compound>
+  <compound refid="dir_effe7c127209dbc7d63a81657a8ab6e2" kind="dir"><name>obj/Debug/netstandard2.0</name>
+  </compound>
+  <compound refid="dir_43724e81dd40e09f32417973865cdd64" kind="dir"><name>obj</name>
+  </compound>
+</doxygenindex>

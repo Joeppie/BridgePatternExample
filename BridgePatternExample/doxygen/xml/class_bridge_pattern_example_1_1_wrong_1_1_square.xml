@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_bridge_pattern_example_1_1_wrong_1_1_square" kind="class" language="C#" prot="public">
+    <compoundname>BridgePatternExample::Wrong::Square</compoundname>
+    <basecompoundref refid="class_bridge_pattern_example_1_1_wrong_1_1_shape" prot="public" virt="non-virtual">BridgePatternExample.Wrong.Shape</basecompoundref>
+    <derivedcompoundref refid="class_bridge_pattern_example_1_1_wrong_1_1_blue_square" prot="public" virt="non-virtual">BridgePatternExample.Wrong.BlueSquare</derivedcompoundref>
+    <derivedcompoundref refid="class_bridge_pattern_example_1_1_wrong_1_1_red_square" prot="public" virt="non-virtual">BridgePatternExample.Wrong.RedSquare</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_bridge_pattern_example_1_1_wrong_1_1_square_1acf05d82ce78a7cf56bc7c6bf30a2caf5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void BridgePatternExample.Wrong.Square.Draw</definition>
+        <argsstring>()</argsstring>
+        <name>Draw</name>
+        <reimplements refid="class_bridge_pattern_example_1_1_wrong_1_1_shape_1a8f9d3a0b9c8e1590d61d13f2ee2592f4">Draw</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="classes.cs" line="20" column="30" bodyfile="classes.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BridgePatternExample.Wrong.Square</label>
+        <link refid="class_bridge_pattern_example_1_1_wrong_1_1_square"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Shape</label>
+        <link refid="class_bridge_pattern_example_1_1_wrong_1_1_shape"/>
+      </node>
+      <node id="3">
+        <label>BridgePatternExample.Wrong.BlueSquare</label>
+        <link refid="class_bridge_pattern_example_1_1_wrong_1_1_blue_square"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>BridgePatternExample.Wrong.RedSquare</label>
+        <link refid="class_bridge_pattern_example_1_1_wrong_1_1_red_square"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BridgePatternExample.Wrong.Square</label>
+        <link refid="class_bridge_pattern_example_1_1_wrong_1_1_square"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Shape</label>
+        <link refid="class_bridge_pattern_example_1_1_wrong_1_1_shape"/>
+      </node>
+    </collaborationgraph>
+    <location file="classes.cs" line="19" column="1" bodyfile="classes.cs" bodystart="18" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_bridge_pattern_example_1_1_wrong_1_1_square_1acf05d82ce78a7cf56bc7c6bf30a2caf5" prot="public" virt="virtual"><scope>BridgePatternExample::Wrong::Square</scope><name>Draw</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

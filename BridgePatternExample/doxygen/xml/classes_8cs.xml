@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classes_8cs" kind="file" language="C#">
+    <compoundname>classes.cs</compoundname>
+    <innerclass refid="class_bridge_pattern_example_1_1_wrong_1_1_red_s_circle" prot="public">BridgePatternExample::Wrong::RedSCircle</innerclass>
+    <innerclass refid="class_bridge_pattern_example_1_1_wrong_1_1_blue_circle" prot="public">BridgePatternExample::Wrong::BlueCircle</innerclass>
+    <innerclass refid="class_bridge_pattern_example_1_1_wrong_1_1_red_square" prot="public">BridgePatternExample::Wrong::RedSquare</innerclass>
+    <innerclass refid="class_bridge_pattern_example_1_1_wrong_1_1_blue_square" prot="public">BridgePatternExample::Wrong::BlueSquare</innerclass>
+    <innerclass refid="class_bridge_pattern_example_1_1_wrong_1_1_square" prot="public">BridgePatternExample::Wrong::Square</innerclass>
+    <innerclass refid="class_bridge_pattern_example_1_1_wrong_1_1_circle" prot="public">BridgePatternExample::Wrong::Circle</innerclass>
+    <innerclass refid="class_bridge_pattern_example_1_1_wrong_1_1_shape" prot="public">BridgePatternExample::Wrong::Shape</innerclass>
+    <innernamespace refid="namespace_bridge_pattern_example">BridgePatternExample</innernamespace>
+    <innernamespace refid="namespace_bridge_pattern_example_1_1_wrong">BridgePatternExample::Wrong</innernamespace>
+    <innernamespace refid="namespace_system">System</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="namespace_bridge_pattern_example_1_1_wrong" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_bridge_pattern_example_1_1_wrong" kindref="compound">BridgePatternExample.Wrong</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="11" refid="class_bridge_pattern_example_1_1_wrong_1_1_red_s_circle" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_bridge_pattern_example_1_1_wrong_1_1_red_s_circle" kindref="compound">RedSCircle</ref><sp/>:<sp/><ref refid="class_bridge_pattern_example_1_1_wrong_1_1_circle" kindref="compound">Circle</ref><sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="12" refid="class_bridge_pattern_example_1_1_wrong_1_1_blue_circle" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_bridge_pattern_example_1_1_wrong_1_1_blue_circle" kindref="compound">BlueCircle</ref><sp/>:<sp/><ref refid="class_bridge_pattern_example_1_1_wrong_1_1_circle" kindref="compound">Circle</ref><sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="13" refid="class_bridge_pattern_example_1_1_wrong_1_1_red_square" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_bridge_pattern_example_1_1_wrong_1_1_red_square" kindref="compound">RedSquare</ref><sp/>:<sp/><ref refid="class_bridge_pattern_example_1_1_wrong_1_1_square" kindref="compound">Square</ref><sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="14" refid="class_bridge_pattern_example_1_1_wrong_1_1_blue_square" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_bridge_pattern_example_1_1_wrong_1_1_blue_square" kindref="compound">BlueSquare</ref><sp/>:<sp/><ref refid="class_bridge_pattern_example_1_1_wrong_1_1_square" kindref="compound">Square</ref><sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="class_bridge_pattern_example_1_1_wrong_1_1_square" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_bridge_pattern_example_1_1_wrong_1_1_square" kindref="compound">Square</ref><sp/>:<sp/><ref refid="class_bridge_pattern_example_1_1_wrong_1_1_shape" kindref="compound">Shape</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20" refid="class_bridge_pattern_example_1_1_wrong_1_1_square_1acf05d82ce78a7cf56bc7c6bf30a2caf5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_bridge_pattern_example_1_1_wrong_1_1_square_1acf05d82ce78a7cf56bc7c6bf30a2caf5" kindref="member">Draw</ref>()</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>NotImplementedException();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="class_bridge_pattern_example_1_1_wrong_1_1_circle" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_bridge_pattern_example_1_1_wrong_1_1_circle" kindref="compound">Circle</ref><sp/>:<sp/><ref refid="class_bridge_pattern_example_1_1_wrong_1_1_shape" kindref="compound">Shape</ref></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31" refid="class_bridge_pattern_example_1_1_wrong_1_1_circle_1aacca1aba5121dbd17ff94e6b900b7e27" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_bridge_pattern_example_1_1_wrong_1_1_circle_1aacca1aba5121dbd17ff94e6b900b7e27" kindref="member">Draw</ref>()</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>NotImplementedException();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="class_bridge_pattern_example_1_1_wrong_1_1_shape" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_bridge_pattern_example_1_1_wrong_1_1_shape" kindref="compound">Shape</ref></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_bridge_pattern_example_1_1_wrong_1_1_shape_1a8f9d3a0b9c8e1590d61d13f2ee2592f4" kindref="member">Draw</ref>();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="classes.cs"/>
+  </compounddef>
+</doxygen>

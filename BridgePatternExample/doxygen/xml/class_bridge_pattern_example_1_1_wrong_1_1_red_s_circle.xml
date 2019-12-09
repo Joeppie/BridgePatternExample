@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_bridge_pattern_example_1_1_wrong_1_1_red_s_circle" kind="class" language="C#" prot="public">
+    <compoundname>BridgePatternExample::Wrong::RedSCircle</compoundname>
+    <basecompoundref refid="class_bridge_pattern_example_1_1_wrong_1_1_circle" prot="public" virt="non-virtual">BridgePatternExample.Wrong.Circle</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Circle</label>
+        <link refid="class_bridge_pattern_example_1_1_wrong_1_1_circle"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>BridgePatternExample.Wrong.RedSCircle</label>
+        <link refid="class_bridge_pattern_example_1_1_wrong_1_1_red_s_circle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Shape</label>
+        <link refid="class_bridge_pattern_example_1_1_wrong_1_1_shape"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Circle</label>
+        <link refid="class_bridge_pattern_example_1_1_wrong_1_1_circle"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>BridgePatternExample.Wrong.RedSCircle</label>
+        <link refid="class_bridge_pattern_example_1_1_wrong_1_1_red_s_circle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Shape</label>
+        <link refid="class_bridge_pattern_example_1_1_wrong_1_1_shape"/>
+      </node>
+    </collaborationgraph>
+    <location file="classes.cs" line="11" column="35" bodyfile="classes.cs" bodystart="11" bodyend="11"/>
+    <listofallmembers>
+      <member refid="class_bridge_pattern_example_1_1_wrong_1_1_circle_1aacca1aba5121dbd17ff94e6b900b7e27" prot="public" virt="virtual"><scope>BridgePatternExample::Wrong::RedSCircle</scope><name>Draw</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

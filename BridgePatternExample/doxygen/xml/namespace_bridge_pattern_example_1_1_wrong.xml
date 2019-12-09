@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespace_bridge_pattern_example_1_1_wrong" kind="namespace" language="C#">
+    <compoundname>BridgePatternExample::Wrong</compoundname>
+    <innerclass refid="class_bridge_pattern_example_1_1_wrong_1_1_blue_circle" prot="public">BridgePatternExample::Wrong::BlueCircle</innerclass>
+    <innerclass refid="class_bridge_pattern_example_1_1_wrong_1_1_blue_square" prot="public">BridgePatternExample::Wrong::BlueSquare</innerclass>
+    <innerclass refid="class_bridge_pattern_example_1_1_wrong_1_1_circle" prot="public">BridgePatternExample::Wrong::Circle</innerclass>
+    <innerclass refid="class_bridge_pattern_example_1_1_wrong_1_1_red_s_circle" prot="public">BridgePatternExample::Wrong::RedSCircle</innerclass>
+    <innerclass refid="class_bridge_pattern_example_1_1_wrong_1_1_red_square" prot="public">BridgePatternExample::Wrong::RedSquare</innerclass>
+    <innerclass refid="class_bridge_pattern_example_1_1_wrong_1_1_shape" prot="public">BridgePatternExample::Wrong::Shape</innerclass>
+    <innerclass refid="class_bridge_pattern_example_1_1_wrong_1_1_square" prot="public">BridgePatternExample::Wrong::Square</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="classes.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

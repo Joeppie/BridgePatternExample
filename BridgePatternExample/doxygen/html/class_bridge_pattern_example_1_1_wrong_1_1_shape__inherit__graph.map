@@ -1,0 +1,9 @@
+<map id="BridgePatternExample.Wrong.Shape" name="BridgePatternExample.Wrong.Shape">
+<area shape="rect" id="node1" title=" " alt="" coords="339,5,537,97"/>
+<area shape="rect" id="node2" href="$class_bridge_pattern_example_1_1_wrong_1_1_circle.html" title=" " alt="" coords="228,145,427,237"/>
+<area shape="rect" id="node5" href="$class_bridge_pattern_example_1_1_wrong_1_1_square.html" title=" " alt="" coords="451,145,649,237"/>
+<area shape="rect" id="node3" href="$class_bridge_pattern_example_1_1_wrong_1_1_blue_circle.html" title=" " alt="" coords="5,285,204,377"/>
+<area shape="rect" id="node4" href="$class_bridge_pattern_example_1_1_wrong_1_1_red_s_circle.html" title=" " alt="" coords="228,285,427,377"/>
+<area shape="rect" id="node6" href="$class_bridge_pattern_example_1_1_wrong_1_1_blue_square.html" title=" " alt="" coords="451,285,649,377"/>
+<area shape="rect" id="node7" href="$class_bridge_pattern_example_1_1_wrong_1_1_red_square.html" title=" " alt="" coords="673,285,872,377"/>
+</map>
